@@ -12,7 +12,7 @@ const utils = require("../utils/utils");
 
 // GET
 router.get("/", function (req, res) {
-  res.render("/profile", { footer: false });
+  res.render("index", { footer: false });
 });
 
 router.get("/login", function (req, res) {
